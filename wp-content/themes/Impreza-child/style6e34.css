@@ -1,0 +1,40 @@
+/*
+Theme Name: Impreza Child
+Template: Impreza
+Version: 1.0
+Author:	UpSolution
+Theme URI: http://impreza.us-themes.com/
+Author URI: http://us-themes.com/
+*/
+
+/*Add your own styles here:*/
+
+@font-face {
+	font-family: isans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/isans.eot');
+	src: url('fonts/isansd41d.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/isans.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/isans.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/isans.ttf') format('truetype');
+}
+
+/* Regular Text Font Family */
+body {
+    font-family: 'isans' !important;
+    }
+
+/* Headings Font Family */
+h1, h2, h3, h4, h5, h6,
+.w-counter-number,
+.w-pricing-item-title,
+.w-pricing-item-price,
+.w-tabs-item-title {
+    font-family: 'isans' !important;
+    }
+
+/* Main Menu Font Family */
+.w-nav-item {
+    font-family: 'isans' !important;
+    }
